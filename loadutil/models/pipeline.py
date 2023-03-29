@@ -49,6 +49,7 @@ class ModelUtils:
 
     def get_src_dtypes(self, source: Source) -> dict:
         src_dtypes = dict()
-        for attr in filter(lambda attr: attr.df_type != None, source.required_attributes):
+        for attr in filter(lambda attr: attr.df_type is not None,
+                           source.required_attributes):
             src_dtypes[attr.name] = attr.df_type
         return src_dtypes
