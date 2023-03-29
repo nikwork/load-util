@@ -1,3 +1,9 @@
-tests/__pycache__/test_sample.cpython-310-pytest-7.2.2.pyc
-tests/__pycache__/test.cpython-310-pytest-7.2.2.pyc
+tests/__pycache__/
 .python-version
+demo_data/
+loadutil/libs/__pycache__
+loadutil/models/__pycache__
+.DS_Store
+demo_data/weekly_product_sales/*
+.vscode
+loadutil/__pycache__/__init__.cpython-310.pyc
